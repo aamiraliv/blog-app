@@ -1,0 +1,3 @@
+.nav-titles{
+   @apply text-text border-2 border-border rounded-md p-2 text-sm hover:bg-lightCard transition-[.5s];
+}

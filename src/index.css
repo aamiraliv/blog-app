@@ -1,0 +1,20 @@
+:root {
+  --background-color: #2C2F48; /* Dark Purple */
+  --card-color: #3A3E61; /* Medium Purple */
+  --button-color: #4D5BCE; /* Accent Blue */
+  --icon-highlight: #FF6D3D; /* Highlight Orange */
+  --border-highlight: #6C73A1; /* Light Purple */
+  --text-color: #FFFFFF; /* White */
+  --muted-text: #B0B5CC; /* Subdued Text */
+  --card-light: #44486C; /* Card Light Background */
+}
+body{
+  @apply bg-background;
+}
+.author-details{
+  @apply text-white/60 text-[12px]
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

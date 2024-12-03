@@ -1,0 +1,3 @@
+.input-field{
+   @apply py-3 px-5 rounded-lg bg-lightCard outline-none text-text w-full
+}
